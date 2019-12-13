@@ -1,0 +1,31 @@
+.wrapper{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	width:100%;
+	padding: 0 20px;
+}
+
+.about_us{
+	max-width: 80vh;
+	max-height: 80vh;
+	margin: 0 auto;
+	background: rgba(0,0,0,0.8);
+	padding: 30px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	box-shadow:  0 0 10px rgba(0,0,0,0.13);
+}
+
+.cntct_info{
+	
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin-right: 4%;
+
+}
+.info{
+    color: #c5ecfd;
+}

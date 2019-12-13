@@ -1,0 +1,14 @@
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #af9a7d;
+  color: black;
+  text-align: center;;
+  }
+  .content {
+    flex: 1 0 auto;
+    padding: 10px;
+  }
+  

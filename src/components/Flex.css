@@ -1,0 +1,30 @@
+.box {
+    padding: 20px;
+    box-sizing: border-box;
+    background: wheat;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+    display:flex;
+    flex-direction: row;
+    
+}
+.box .imgBx {
+    width: 150px;
+    flex: 0 0 150px;
+}
+
+.box .imgBx img{
+    max-width: 100%;
+
+}
+
+.box .contentt {
+    padding-left: 20px;
+
+}
+
+@media screen and (max-width: 400px){
+    .box{
+        flex-direction: column;
+    }
+}
